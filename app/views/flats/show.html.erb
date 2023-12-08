@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @flat %>
+
+<div>
+  <%= link_to "Edit this Cinema Address", edit_flat_path(@flat) %> |
+  <%= link_to "Back to this Cinema List Addresses", flats_path %>
+
+  <%= button_to "Delete this address", @flat, method: :delete %>
+</div>
